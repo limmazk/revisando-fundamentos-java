@@ -19,7 +19,7 @@ public class MapTest02 {
 
         Map<Consumidor, Manga> consumidorManga = new HashMap<>();
         consumidorManga.put(consumidor1, manga1);
-        consumidorManga.put(consumidor2, manga4); //explicação do código
+        consumidorManga.put(consumidor2, manga4);
         for(Map.Entry<Consumidor, Manga> entry : consumidorManga.entrySet()){
             System.out.println(entry.getKey().getNome() + " - " + entry.getValue().getNome());
         }
